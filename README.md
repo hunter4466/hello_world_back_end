@@ -19,7 +19,7 @@ In this project I developed a simple API to be consumed by a hello world React A
 
 1. Clone the repo
 
-   git clone https://github.com/hunter4466/hello_rails_react.git
+   git clone https://github.com/hunter4466/hello_world_back_end.git
   
 
 ### Usage
@@ -49,10 +49,15 @@ In this project I developed a simple API to be consumed by a hello world React A
    rails server
    ```
 
-4. Access to the website in a browser with the following link
+4. Access to API
+ 
+   ```
+   consult http://localhost:3000/v1/messages endpoint to pull information fro mthe databaste
+   ```
+5. Uploaded API documentation
 
-   ```sh
-   localhost:3000
+   ```
+   consult https://hello-world-back-end-api.herokuapp.com/v1/messages endpoint to pull information from heroku databaste
    ```
 
 ### Test
@@ -75,7 +80,7 @@ For testing the classes run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hunter4466/hello_rails_react/issues).
+Feel free to check the [issues page](https://github.com/hunter4466/hello_world_back_end/issues).
 
 
 ## Show your support
@@ -85,4 +90,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/hunter4466/hello_rails_react/blob/development/LICENSE) licensed.
+This project is [MIT](https://github.com/hunter4466/hello_world_back_end/blob/development/LICENSE) licensed.
