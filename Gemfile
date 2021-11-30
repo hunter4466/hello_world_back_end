@@ -61,6 +61,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'rails-controller-testing'
 
+gem 'rack-cors'
+
 gem 'devise'
 
 gem 'react-rails'
