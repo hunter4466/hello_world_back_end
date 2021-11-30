@@ -65,6 +65,4 @@ gem 'rack-cors'
 
 gem 'devise'
 
-gem 'react-rails'
-
 gem 'cancancan', '~> 3.3'
