@@ -1,11 +1,6 @@
-# Rails React Hello World App
+# Rails Back End API
 
-In this project I developed a simple app to connect react with rails and fetch some random information from database.
-
-## Screenshots
-
-![image](./app/assets/images/Screenshots/Capture.png)
-
+In this project I developed a simple API to be consumed by a hello world React API
 
 
 ## Built With
