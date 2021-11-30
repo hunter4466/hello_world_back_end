@@ -6,9 +6,4 @@ Rails.application.routes.draw do
     get 'messages', to: 'messages#index'
   end
 
-  get '*page', to: 'static#index', constraints: lambda { |req|
-    !req.xhr? && req.format.html?
-  }
-
-  root to: 'static#index'
 end
