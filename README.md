@@ -1,1 +1,98 @@
-# hello_world_back_end
+# Rails Back End API
+
+In this project I developed a simple API to be consumed by a hello world React API
+
+
+## Built With
+
+- ![Ruby](https://img.shields.io/badge/Ruby-20232A?style=for-the-badge&logo=ruby&logoColor=61DAFB)
+- ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+- ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+## Getting Started
+
+### Installation
+
+1. Clone the repo
+
+   git clone https://github.com/hunter4466/hello_world_back_end.git
+
+## Front preview end repo and pull request
+
+   [Link to front end pull request](https://github.com/hunter4466/hello_world_front_end/pull/2)
+
+   [Link to live preview](https://hello-world-fron-end.herokuapp.com/)
+
+### Usage
+
+1. Install ruby gems dependencies
+
+   ```sh
+   bundle install
+   ```
+
+2. Install node dependencies
+
+   ```sh
+   npm install
+   ```
+3. Run the database migration and seed
+
+   ```
+   rails db:create
+   rails db:migrate
+   rails db:seed
+   ```
+
+3. Run the web server
+
+   ```sh
+   rails server
+   ```
+
+4. Access to API
+ 
+   ```
+   consult http://localhost:3000/v1/messages endpoint to pull information fro mthe databaste
+   ```
+5. Uploaded API documentation
+
+   ```
+   consult https://hello-world-back-end-api.herokuapp.com/v1/messages endpoint to pull information from heroku databaste
+   ```
+
+### Test
+
+For testing the classes run:
+
+   ```sh
+   bundle exec rspec spec
+   ```
+
+## Authors
+
+👤 **Mario Chois**
+
+- GitHub: [@githubhandle](https://github.com/hunter4466/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mario-chois-5a13b6b6/)
+- Angelist: [@angelist](https://angel.co/u/mario-chois)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/hunter4466/hello_world_back_end/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/hunter4466/hello_world_back_end/blob/development/LICENSE) licensed.
